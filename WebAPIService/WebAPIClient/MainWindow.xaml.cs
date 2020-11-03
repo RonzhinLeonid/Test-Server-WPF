@@ -16,6 +16,7 @@ namespace WebAPIClient
         {
             InitializeComponent();
             client.BaseAddress = new Uri("https://localhost:44372/");
+            //client.BaseAddress = new Uri("http://localhost:44372/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
